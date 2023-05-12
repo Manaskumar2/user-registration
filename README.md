@@ -15,7 +15,7 @@ This project provides user registration and login functionality. It includes an 
 
 ## API Documentation
 
-The API endpoints can be accessed through the following base URL: https://user-registration-vxrp.onrender.com/api
+The API endpoints can be accessed through the following base URL: https://user-registration-vxrp.onrender.com/api-test
 
 To test the API, you can use the Swagger interface available at [https://user-registration-vxrp.onrender.com/api-test](https://user-registration-vxrp.onrender.com/api-test). This interface allows you to explore and interact with the API endpoints.
 after hit thi url  it look like this
