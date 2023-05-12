@@ -3,7 +3,8 @@ const express = require("express");
 const mongoose = require('mongoose')
 const route = require("./src/routes/route");
 const app = express();
-const path =  require('path');
+const path = require('path');
+const { swaggerServe, swaggerSetup } = require('./src/config')
 
 
 
@@ -35,7 +36,7 @@ mongoose
 
 app.use("/api", route);
 
-
+app.use("/api-test", swaggerServe, swaggerSetup);
 
 app.use((req, res, next) => {
   const error = new Error("Path not found.");
